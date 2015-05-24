@@ -1,13 +1,22 @@
-## This program contains Two functions.One to Make the cache of a matrix
-## and other to compute and cache the matix. 
-## makeCacheMatrix takes a parametr of type Matrix as input 
-## and returns a special list which contains method to get and 
-## set inverse.
-## CacheSolve function takes the special matrix and looks 
-## up the inverse from cache. if inverse availbale returns the value, 
-## if not available ,inverse in computerd, set in cache 
-## and the value is returned
+# *------------------------------------------------------------------
+# | PROGRAM NAME:  cachematrix                                      | 
+# | DATE: 05/24/2015                                                |
+# | CREATED BY:  subrads                                            |  
+# | PROJECT FILE:  cachematrix.R                                    |  
+# *------------------------------------------------------------------
 
+# *------------------------------------------------------------------
+# |PURPOSE:                                                         |
+# | This program contains Two functions. One to Make the cache of a  |   
+# | matrixand other to compute and cache the matix.                 |
+# | makeCacheMatrix takes a parametr of type Matrix as input        |
+# | and returns a special list which contains method to get and     |
+# | set inverse.                                                    |
+# | CacheSolve function takes the special matrix and looks          |
+# | up the inverse from cache. if inverse availbale returns the     | 
+# | value, if not available ,inverse in computerd, set in cache     | 
+# | and the value is returned                                       |
+# *------------------------------------------------------------------
 
 ##  makeCacheMatrix takes a parametr of type Matrix as input 
 ##  setInverse sets the inverse of matrix
